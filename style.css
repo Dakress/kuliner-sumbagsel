@@ -1,0 +1,282 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: #1E0342;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* HOME */
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Pacifico', cursive;
+    color: #1E0342; /* Warna teks logo */
+    margin-top: 7px;
+    text-shadow: 0 0 60px #1E0342;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    top: 10px;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    background: #E1F7F5;
+    box-shadow: 0 0 50px #E1F7F5;
+    border-radius: 100px;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #1E0342; /* Warna teks menu */
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration:  none;
+}
+
+nav ul li a:hover {
+    text-decoration-line: underline;
+    text-shadow: 0 0 25px #1E0342;
+    
+}
+
+
+/* BERANDA */
+
+.beranda-section {
+    margin-top: 70px;
+}
+
+.sumbagsel img{
+    float: left;
+    width: 450px;
+    filter: drop-shadow(1px 1px 20px #E1F7F5);
+    transition: all ease-out 1s;
+}
+
+.sumbagsel img:hover{
+    float: left;
+    width: 500px;
+    filter: drop-shadow(1px 1px 50px #E1F7F5);
+}
+
+.deskripsi {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: #E1F7F5;
+    font-size:large;
+    font-family:'Pacifico', cursive;
+    text-shadow: 0 0 5px #E1F7F5;
+}
+
+/* MAKANAN */
+
+#makanan {
+    margin-top: 300px;
+}
+.maakanan-section {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    display: ;
+}
+
+.lambang{
+    margin-left: 38%;
+}
+.lambang img {
+    width: 70px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 2px solid #E1F7F5;
+    transition: all ease-in-out 0.5s;
+    box-shadow: 0 0 10px #E1F7F5;
+}
+
+.lambang img:hover  {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    /* border-radius: 25px; */
+    /* border: 2px solid #E1F7F5; */
+    box-shadow: 0 0 60px #E1F7F5;
+
+}
+
+/* MAKANAN 2 */
+
+
+.daerah {
+    margin-top: 80px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-size: 35px;
+    color: #E1F7F5;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.kartu-makanan {
+    display: flex;
+    justify-content: space-around; /* Untuk menyeimbangkan jarak antara kedua elemen */
+}
+
+.makanan1 {
+    box-shadow: 0 0 20px #E1F7F5;
+    /* float: left; */
+    background-color: #E1F7F5;
+    padding: 25px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 100px;
+    /* margin-bottom: 100px; */
+    transition: all ease-in-out  0.4s;
+}
+
+.makanan1:hover {
+    transform: scale(1.10);
+    box-shadow: 0 0 60px #E1F7F5;
+    /* float: left; */
+    background-color: #E1F7F5;
+    padding: 25px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+
+.makanan1 img{
+    width:  150px;
+    border-radius: 20px;
+}
+
+
+.makanan1 h1{
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+} 
+
+
+.makanan2 {
+    box-shadow: 0 0 20px #E1F7F5;
+    /* float: right; */
+    background-color: #E1F7F5;
+    padding: 25px;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 100px;
+    transition: all ease-in-out  0.4s;
+    /* margin-bottom: 200px; */
+}
+
+.makanan2:hover {
+    transform: scale(1.10);
+    box-shadow: 0 0 60px #E1F7F5;
+    /* float: right; */
+    background-color: #E1F7F5;
+    padding: 25px;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 100px;
+}
+
+.makanan2 img{
+    width:  150px;
+    border-radius: 20px;
+}
+
+.makanan2 h1{
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+} 
+
+/* TIM */
+
+.tim-section{
+    margin-top: 150px;
+    margin-bottom: 199px;
+
+}
+
+.tim-section h1 {
+    text-align: center;
+    color: #E1F7F5;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 0 0 20px#E1F7F5;
+}
+
+.tim-section a, h2, p {
+    color: #E1F7F5;
+    text-decoration: none;
+}
+
+.tim-section img {
+    border-radius: 50%;
+}
+
+
+.dean {
+    float: left;
+    transition: all ease-in-out 0.4s;
+}
+
+.dean:hover {
+    float: left;
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 20px #E1F7F5) ;
+}
+.dean img{
+    height: 100px;
+
+}
+
+.malvin {
+    float: right;
+    transition: all ease-in-out 0.4s;
+}
+
+.malvin:hover {
+    float: right;
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 20px #E1F7F5) ;
+}
+
+.malvin img{
+    height: 100px;
+}
